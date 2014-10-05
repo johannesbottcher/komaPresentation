@@ -1,0 +1,25 @@
+\documentclass[english]{komapresentation}
+\author{the author}
+\title{the title of the presentation}
+\location[TEX]{TeX conference}
+\date{\today}
+\RequirePackage[T1]{fontenc}     
+\RequirePackage{showframe} 
+\begin{document}
+
+\tableofcontents
+\sectiona{a section}
+Text in a section, runninghead updated
+
+\sectiona{a different section}
+Text in another section, runninghead updated
+\subsectiona{a subsection}
+The runninghead is now smaller, to distiguish it a bit from a
+section
+\sectiona*{a starred section}
+Text in a starred section, runninghead updated, but no toc entry
+
+\sectiona[toc entry]{running head}
+an optional argument? REALLY?
+
+\end{document}
